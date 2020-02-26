@@ -79,7 +79,7 @@ At ```mol_dqn/configs/``` directory, there are json files for the hyperparameter
 You can change thoes hyperparameters as your desire. 
 
 #### Optimization of binding affinity
-<pre><code>python optimize_qed.py --model_dir=${OUTPUT_DIR} --start_molecule=${INIT_MOL} --hparams="./configs/bootstrap_dqn_step1.json"</code></pre>
+<pre><code>python optimize_BE.py --model_dir=${OUTPUT_DIR} --start_molecule=${INIT_MOL} --hparams="./configs/bootstrap_dqn_step1.json"</code></pre>
 > ```hparams``` could be a custom json file.
 
 ## Output
