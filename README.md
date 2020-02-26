@@ -16,7 +16,7 @@ Therefore, to run MORLD in standalone, you must have an environment that you can
 Usage of the MORLD is similar with MolDQN too. 
 
 
-2. rdkit (QED score): https://www.rdkit.org/docs/Install.html
+2. rdkit (QED score and molecule modification): https://www.rdkit.org/docs/Install.html
 3. gym-molecule library (SA score): https://github.com/bowenliu16/rl_graph_generation/tree/master/gym-molecule
 4. QuickVina2 (docking score): https://github.com/QVina/qvina
 5. open babel (converting file types of a molecule): https://openbabel.org/docs/dev/Installation/install.html
