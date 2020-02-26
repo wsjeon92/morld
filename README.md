@@ -70,7 +70,7 @@ Place the below files into ```mol_dqn/chemgraph/``` directory.
 #### Set the initial molecule (lead molecule)
 <pre><code>INIT_MOL="C1CC2=CC=CC=C2N(C1)C(=O)CN3CCC(CC3)NC4=NC(=CC(=O)N4)C(F)(F)F"</code></pre>
 > Set your own initial molecule with a SMILES representation.
-> The example SMILES is ZINC12114041 which is found by virtual screening against the protein DDR1 (3zos).
+The example SMILES is ZINC12114041 which is found by virtual screening against the protein DDR1 (3zos).
 
 #### Set the hyperparameters
 At ```mol_dqn/configs/``` directory, there are json files for the hyperparameters.
