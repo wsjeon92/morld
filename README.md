@@ -1,6 +1,7 @@
 # MORLD
 
-This repository provides the source code of the main part of the MORLD software.<br>
+This repository provides the source code of the main part of the MORLD software.
+
 To run a demo, you need to prepare the enviroment described below or just simply go to MORLD web service (http://morld.kaist.ac.kr) and see the Tutorial page. The demo prepared at MORLD web service takes 1~2 days to get the result.
 
 ## Prepare
@@ -28,7 +29,8 @@ For running QuickVina2, the PDB file should have no ligand molecules.
 You need to remove the ligand molecules with tools like pymol before docking.
 
 Also, the target protein is given as a pdbqt file format.
-Please follow the intruction of the below link to convert a pdb file format to a pdbqt file format. <br>
+Please follow the intruction of the below link to convert a pdb file format to a pdbqt file format.
+
 http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-receptor-file-for-autodock4
 
 #### Configuration file for docking
