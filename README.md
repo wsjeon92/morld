@@ -33,6 +33,8 @@ Please follow the intruction of the below link to convert a pdb file format to a
 
 http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-receptor-file-for-autodock4
 
+We provide an example pdbqt file for demo ```3zos.pdbqt``` in this repository. 
+
 #### Configuration file for docking
 For running QuickVina2, you need a configuration file.
 Make the configuration file looks like below as "config.txt". 
@@ -52,7 +54,7 @@ size_z = ###
 >Fill the file name of the receptor at the placeholder of receptor. (You do not need to change the name of ligand file.)
 Fill the binding pocket information with the coordinate and the size of the grid box in Angstrom (Å). 
 
-The example configuration file for demo is also provides as "config.txt" at this repository.
+An example configuration file for demo is also provides as "config.txt" in this repository.
 
 #### Prepare the required files
 MORLD works inside the MolDQN. 
