@@ -84,4 +84,5 @@ You can change thoes hyperparameters as your desire.
 
 ## Output
 The output file ```optimized_result_total.txt``` contains the optimized molecules with SMILES, docking score, SA score, and QED score by tab delimiter.
+
 MORLD web server (http://morld.kaist.ac.kr), in addition, provides files of docking pose of each optimized molecules. 
