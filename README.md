@@ -58,7 +58,7 @@ Fill the binding pocket information with the coordinate and the size of the grid
 
 An example configuration file for demo is also provides as "config.txt" in this repository.
 
-#### Prepare the required files
+#### Place the required files
 MORLD works inside the MolDQN. 
 Place the below files into ```mol_dqn/chemgraph/``` directory.
 1. ```optimized_BE.py``` file
