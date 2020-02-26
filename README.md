@@ -33,7 +33,7 @@ Please follow the intruction of the below link to convert a pdb file format to a
 
 http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-receptor-file-for-autodock4
 
-We provide an example pdbqt file for demo ```3zos.pdbqt``` in this repository. 
+We provide an example pdbqt file of the protein DDR1 (discoidin domain receptor 1) ```3zos.pdbqt``` for demo in this repository. 
 
 #### Configuration file for docking
 For running QuickVina2, you need a configuration file.
@@ -68,8 +68,9 @@ Place the below files into ```mol_dqn/chemgraph/``` directory.
 <pre><code>export OUTPUT_DIR="./save"</code></pre>
 
 #### Set the initial molecule (lead molecule)
-<pre><code>INIT_MOL="CCCCCC"</code></pre>
+<pre><code>INIT_MOL="C1CC2=CC=CC=C2N(C1)C(=O)CN3CCC(CC3)NC4=NC(=CC(=O)N4)C(F)(F)F"</code></pre>
 > Set your own initial molecule with a SMILES representation.
+> The example SMILES is ZINC12114041 which is found by virtual screening against the protein DDR1 (3zos).
 
 #### Set the hyperparameters
 At ```mol_dqn/configs/``` directory, there are json files for the hyperparameters.
