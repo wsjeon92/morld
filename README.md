@@ -52,7 +52,7 @@ size_z = ###
 >Fill the file name of the receptor at the placeholder of receptor. (You do not need to change the name of ligand file.)
 Fill the binding pocket information with the coordinate and the size of the grid box in Angstrom (Å). 
 
-The example file for demo is also provides as "config.txt" at this repository.
+The example configuration file for demo is also provides as "config.txt" at this repository.
 
 #### Prepare the required files
 MORLD works inside the MolDQN. 
