@@ -61,7 +61,7 @@ An example configuration file for demo is also provides as ```config.txt``` in t
 MORLD works inside the MolDQN. 
 Place the below files into ```mol_dqn/chemgraph/``` directory.
 1. ```optimized_BE.py``` file
-2. ```receptor.pdbqt``` the receptor file with pdbqt format.
+2. ```3zos.pdbqt``` the receptor file with pdbqt format.
 3. ```config.txt``` file
 
 ## Usage
