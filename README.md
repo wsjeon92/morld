@@ -12,7 +12,7 @@ Or simply go to MORLD web service (http://morld.kaist.ac.kr) and see the Tutoria
 https://github.com/google-research/google-research/tree/master/mol_dqn
 
 >The MORLD is based on MolDQN. 
-Therefore, to run MOLRD in standalone, you must have an environment that you can run MolDQN.
+Therefore, to run MORLD in standalone, you must have an environment that you can run MolDQN.
 Usage of the MORLD is similar with MolDQN too. 
 
 
