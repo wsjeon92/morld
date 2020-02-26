@@ -22,7 +22,12 @@ Usage of the MORLD is similar with MolDQN too.
 
 
 #### Preprocessing of a target protein
-For running QuickVina2, the target protein is given as a pdbqt file format.
+
+
+For running QuickVina2, the PDB file should have no ligand molecules.
+You need to remove the ligand molecules with tools like pymol before docking.
+
+Also, the target protein is given as a pdbqt file format.
 Please follow the intruction of the below link to convert a pdb file format to a pdbqt file format. <br>
 http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-receptor-file-for-autodock4
 
