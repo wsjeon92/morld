@@ -1,4 +1,5 @@
 # MORLD
+MORLD is a molecule optimization method based on reinforcement learning and docking. 
 
 This repository provides the source code of the main part of the MORLD software and its usage.
 
