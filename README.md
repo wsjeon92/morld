@@ -1,6 +1,6 @@
 # MORLD
 
-This repository provides the source code of the main part of the MORLD software.
+This repository provides the source code of the main part of the MORLD software and its usage.
 
 To run a demo, you need to prepare the enviroment described below.
 
