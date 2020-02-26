@@ -1,0 +1,12 @@
+receptor = 3zos.pdbqt
+ligand = ligand.pdbqt
+
+#binding_pocket
+center_x = 2.8
+center_y = 6.2
+center_z = -18.3
+
+size_x = 22
+size_y = 22
+size_z = 22
+
