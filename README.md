@@ -2,7 +2,9 @@
 
 This repository provides the source code of the main part of the MORLD software.
 
-To run a demo, you need to prepare the enviroment described below or just simply go to MORLD web service (http://morld.kaist.ac.kr) and see the Tutorial page. The demo prepared at MORLD web service takes 1~2 days to get the result.
+To run a demo, you need to prepare the enviroment described below.
+
+Or simply go to MORLD web service (http://morld.kaist.ac.kr) and see the Tutorial page. The demo prepared at MORLD web service takes 1~2 days to get the result.
 
 ## Prepare
 
