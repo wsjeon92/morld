@@ -1,6 +1,6 @@
 # coding=utf-8
 # Copyright 2019 The Google Research Authors.
-# modified Copyright 2020 by W. Jeon.
+# Modified Copyright 2020 by W. Jeon.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
