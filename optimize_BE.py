@@ -1,5 +1,6 @@
 # coding=utf-8
 # Copyright 2019 The Google Research Authors.
+# modified Copyright 2020 by W. Jeon.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,7 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# modified by W. Jeon 2020
 
 # Lint as: python2, python3
 """Optimizes a binding affinity of a molecule against the target with MolDQN.
