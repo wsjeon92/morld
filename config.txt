@@ -1,4 +1,4 @@
-receptor = 3zos.pdbqt
+receptor = 3zosA_prepared.pdbqt
 ligand = ligand.pdbqt
 
 #binding_pocket
