@@ -99,7 +99,7 @@ class BARewardMolecule(molecules_mdp.Molecule):
       # convert SMILES > PDBQT
       # --gen3d: the option for generating 3D coordinate
       #  -h: protonation
-      cvt_cmd = "obabel ligand.smi -O ligand.pdbqt --gen3D -h > cvt_log.txt"
+      cvt_cmd = "obabel ligand.smi -O ligand.pdbqt --gen3D -p > cvt_log.txt"
       os.system(cvt_cmd)
 
       # docking
