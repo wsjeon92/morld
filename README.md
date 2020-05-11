@@ -28,13 +28,15 @@ Usage of the MORLD is similar with MolDQN too.
 
 For running QuickVina2, the PDB file should have no ligand molecules.
 You need to remove the ligand molecules with tools like pymol before docking.
+And PDB file should be protonated to appropriately.
+You can use PDB2PQR server to protonate PDB file.
 
 Also, the target protein is given as a pdbqt file format.
 Please follow the intruction of the below link to convert a pdb file format to a pdbqt file format.
 
 http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-receptor-file-for-autodock4
 
-We provide an example pdbqt file of the protein DDR1 (discoidin domain receptor 1) ```3zos.pdbqt``` for demo in this repository. 
+We provide an example pdbqt file of the protein DDR1 (discoidin domain receptor 1) ```3zosA_prepared.pdbqt``` for demo in this repository.
 
 #### Configuration file for docking
 For running QuickVina2, you need a configuration file.
