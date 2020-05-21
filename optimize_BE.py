@@ -103,7 +103,7 @@ class BARewardMolecule(molecules_mdp.Molecule):
       os.system(cvt_cmd)
 
       # docking
-      docking_cmd ="qvina02 --config config.txt --num_modes=1 > log_docking.txt"
+      docking_cmd ="qvina2.1 --config config.txt --num_modes=1 > log_docking.txt"
       os.system(docking_cmd)
 
       # parsing docking score from log file
