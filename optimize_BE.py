@@ -42,9 +42,9 @@ from rdkit import Chem
 
 from rdkit.Chem import QED
 from tensorflow import gfile
-from mol_dqn.chemgraph.dqn import deep_q_networks_parent
+from mol_dqn.chemgraph.dqn import deep_q_networks
 from mol_dqn.chemgraph.dqn import molecules as molecules_mdp
-from mol_dqn.chemgraph.dqn import run_dqn_parent
+from mol_dqn.chemgraph.dqn import run_dqn
 from mol_dqn.chemgraph.dqn.tensorflow_core import core
 
 FLAGS = flags.FLAGS
@@ -128,9 +128,9 @@ def main(argv):
   del argv  # unused.
   if FLAGS.hparams is not None:
     with gfile.Open(FLAGS.hparams, 'r') as f:
-      hparams = deep_q_networks_parent.get_hparams(**json.load(f))
+      hparams = deep_q_networks.get_hparams(**json.load(f))
   else:
-    hparams = deep_q_networks_parent.get_hparams()
+    hparams = deep_q_networks.get_hparams()
   environment = BARewardMolecule(
       discount_factor=hparams.discount_factor,
       atom_types=set(hparams.atom_types),
@@ -141,17 +141,17 @@ def main(argv):
       allowed_ring_sizes=set(hparams.allowed_ring_sizes),
       max_steps=hparams.max_steps_per_episode)
 
-  dqn = deep_q_networks_parent.DeepQNetwork(
+  dqn = deep_q_networks.DeepQNetwork(
       input_shape=(hparams.batch_size, hparams.fingerprint_length + 1),
       q_fn=functools.partial(
-          deep_q_networks_parent.multi_layer_model, hparams=hparams),
+          deep_q_networks.multi_layer_model, hparams=hparams),
       optimizer=hparams.optimizer,
       grad_clipping=hparams.grad_clipping,
       num_bootstrap_heads=hparams.num_bootstrap_heads,
       gamma=hparams.gamma,
       epsilon=1.0)
 
-  run_dqn_parent.run_training(
+  run_dqn.run_training(
       hparams=hparams,
       environment=environment,
       dqn=dqn)
