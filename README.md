@@ -53,7 +53,7 @@ Please follow the intruction of the below link to convert a pdb file format to a
 
 http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-receptor-file-for-autodock4
 or
-https://bioinformaticsreview.com/20200716/prepare-receptor-and-ligand-files-for-docking-using-python-scripts/)
+https://bioinformaticsreview.com/20200716/prepare-receptor-and-ligand-files-for-docking-using-python-scripts/
 
 We provide an example pdbqt file of the protein DDR1 (discoidin domain receptor 1) ```3zosA_prepared.pdbqt``` for demo in this repository.
 
