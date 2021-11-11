@@ -22,6 +22,23 @@ Usage of the MORLD is similar with MolDQN too.
 5. open babel (converting file types of a molecule): https://openbabel.org/docs/dev/Installation/install.html
 6. mgltools for linux (preprocessing a target protein): http://mgltools.scripps.edu/downloads
 
+#### Verified dependencies
+The working of MORLD has been verified in the versions below.
+
+1. python: 3.7.6
+2. MolDQN: Latest github version (https://github.com/aksub99/MolDQN-pytorch)
+3. rdkit: 2018.09.1 
+4. mgltools: mgltools_Linux-x86_64_1.5.7 (https://ccsb.scripps.edu/mgltools/downloads/)
+5. gym-molecule: Latest github version (https://github.com/bowenliu16/rl_graph_generation/tree/master/gym-molecule)
+6. QuickVina2: Latest github version (https://github.com/QVina/qvina)
+7. open babel: 2.4.1
+8. pandas: 1.0.1
+9. baselines: Latest github version (https://github.com/openai/baselines#installation)
+10. absl-py: 0.9.0
+11. networkx: 2.4
+12. numpy: 1.18.1
+13. tensorflow: 1.14.0
+
 
 #### Preprocessing of a target protein
 
@@ -35,6 +52,8 @@ Also, the target protein is given as a pdbqt file format.
 Please follow the intruction of the below link to convert a pdb file format to a pdbqt file format.
 
 http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-receptor-file-for-autodock4
+or
+https://bioinformaticsreview.com/20200716/prepare-receptor-and-ligand-files-for-docking-using-python-scripts/)
 
 We provide an example pdbqt file of the protein DDR1 (discoidin domain receptor 1) ```3zosA_prepared.pdbqt``` for demo in this repository.
 
