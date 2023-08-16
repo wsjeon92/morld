@@ -38,6 +38,7 @@ The working of MORLD has been verified in the versions below.
 11. networkx: 2.4
 12. numpy: 1.18.1
 13. tensorflow: 1.14.0
+14. gast: 0.3.3 (recommended to suppress warnings)
 
 
 #### Preprocessing of a target protein
