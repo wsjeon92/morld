@@ -3,7 +3,7 @@ MORLD is a molecule optimization method based on reinforcement learning and dock
 
 To run a demo, you need to prepare the enviroment described below.
 
-Or simply go to MORLD web service (http://morld.kaist.ac.kr) and see the Tutorial page. The demo prepared at MORLD web service takes 1~2 days to get the result.
+Or simply go to MORLD web service (morld.apps.cloud.kbds.re.kr) and see the Tutorial page. The demo prepared at MORLD web service takes 1~2 days to get the result.
 
 ## Prepare
 
