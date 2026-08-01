@@ -1,6 +1,8 @@
 # MORLD
 MORLD is a molecule optimization method based on reinforcement learning and docking. This repository provides the source code of the main part of the MORLD software and its usage.
 
+Paper: Jeon, W., Kim, D. Autonomous molecule generation using reinforcement learning and docking to develop potential novel inhibitors. Sci Rep 10, 22104 (2020). https://doi.org/10.1038/s41598-020-78537-2
+
 To run a demo, you need to prepare the enviroment described below.
 
 Or simply go to MORLD web service (morld.apps.cloud.kbds.re.kr) and see the Tutorial page. The demo prepared at MORLD web service takes 1~2 days to get the result.
