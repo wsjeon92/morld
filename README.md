@@ -3,19 +3,19 @@ MORLD is a molecule optimization method based on reinforcement learning and dock
 
 Paper: Jeon, W., Kim, D. Autonomous molecule generation using reinforcement learning and docking to develop potential novel inhibitors. Sci Rep 10, 22104 (2020). https://doi.org/10.1038/s41598-020-78537-2
 
-To run a demo, you need to prepare the enviroment described below.
+To run a demo, you need to prepare the environment described below.
 
 Or simply go to MORLD web service (morld.apps.cloud.kbds.re.kr) and see the Tutorial page. The demo prepared at MORLD web service takes 1~2 days to get the result.
 
 ## Prepare
 
-#### Enviroment setting
+#### environment setting
 1. MolDQN and its requirements (RL framework): 
 https://github.com/google-research/google-research/tree/master/mol_dqn
 
 >The MORLD is based on MolDQN. 
 Therefore, to run MORLD in standalone, you must have an environment that you can run MolDQN.
-Usage of the MORLD is similar with MolDQN too. 
+Usage of the MORLD is similar to that of MolDQN.
 
 
 2. rdkit (QED score and molecule modification): https://www.rdkit.org/docs/Install.html
@@ -46,10 +46,8 @@ The working of MORLD has been verified in the versions below.
 #### Preprocessing of a target protein
 
 
-For running QuickVina2, the PDB file should have no ligand molecules.
-You need to remove the ligand molecules with tools like pymol before docking.
-And PDB file should be protonated to appropriately.
-You can use PDB2PQR server to protonate PDB file.
+QuickVina2 requires a PDB file with no ligands. Remove them with a tool such as PyMOL before docking.
+The PDB file should also be properly protonated; you can use the PDB2PQR server for this.
 
 Also, the target protein is given as a pdbqt file format.
 Please follow the intruction of the below link to convert a pdb file format to a pdbqt file format.
@@ -79,7 +77,7 @@ size_z = ###
 >Fill the file name of the receptor at the placeholder of receptor. (You do not need to change the name of ligand file.)
 Fill the binding pocket information with the coordinate and the size of the grid box in Angstrom (Å). 
 
-An example configuration file for demo is also provides as ```config.txt``` in this repository.
+An example configuration file for the demo is also provided as ```config.txt``` in this repository.
 
 #### Place the required files
 MORLD works inside the MolDQN. 
