@@ -5,11 +5,11 @@ Paper: Jeon, W., Kim, D. Autonomous molecule generation using reinforcement lear
 
 To run a demo, you need to prepare the environment described below.
 
-Or simply go to MORLD web service (morld.apps.cloud.kbds.re.kr) and see the Tutorial page. The demo prepared at MORLD web service takes 1~2 days to get the result.
+Or simply go to MORLD web service (<https://morld.apps.cloud.kbds.re.kr/>) and see the Tutorial page. The demo prepared at MORLD web service takes 1~2 days to get the result.
 
 ## Prepare
 
-#### environment setting
+#### Environment setting
 1. MolDQN and its requirements (RL framework): 
 https://github.com/google-research/google-research/tree/master/mol_dqn
 
@@ -50,7 +50,7 @@ QuickVina2 requires a PDB file with no ligands. Remove them with a tool such as 
 The PDB file should also be properly protonated; you can use the PDB2PQR server for this.
 
 Also, the target protein is given as a pdbqt file format.
-Please follow the intruction of the below link to convert a pdb file format to a pdbqt file format.
+Please follow the intructions of the below link to convert a pdb file format to a pdbqt file format.
 
 http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-receptor-file-for-autodock4
 or
@@ -60,7 +60,7 @@ We provide an example pdbqt file of the protein DDR1 (discoidin domain receptor 
 
 #### Configuration file for docking
 For running QuickVina2, you need a configuration file.
-Make the configuration file looks like below as "config.txt". 
+Make the configuration file look like the example below. 
 <pre><code>receptor = receptor.pdbqt
 ligand = ligand.pdbqt
 
@@ -82,7 +82,7 @@ An example configuration file for the demo is also provided as ```config.txt``` 
 #### Place the required files
 MORLD works inside the MolDQN. 
 Place the below files into ```mol_dqn/chemgraph/``` directory.
-1. ```optimized_BE.py``` file
+1. ```optimize_BE.py``` file
 2. ```3zosA_prepared.pdbqt``` the receptor file with pdbqt format.
 3. ```config.txt``` file
 
@@ -97,7 +97,7 @@ The example SMILES is ZINC12114041 which is found by virtual screening against t
 
 #### Set the hyperparameters
 At ```mol_dqn/configs/``` directory, there are json files for the hyperparameters.
-You can change thoes hyperparameters as your desire. 
+You can change those hyperparameters as your desire. 
 
 #### Optimization of binding affinity
 <pre><code>python optimize_BE.py --model_dir=${OUTPUT_DIR} --start_molecule=${INIT_MOL} --hparams="./configs/bootstrap_dqn_step1.json"</code></pre>
@@ -106,4 +106,4 @@ You can change thoes hyperparameters as your desire.
 ## Output
 The output file ```optimized_result_total.txt``` contains the optimized molecules with SMILES, docking score, SA score, and QED score by tab delimiter.
 
-MORLD web server (http://morld.kaist.ac.kr), in addition, provides files of docking pose of each optimized molecules. 
+MORLD web server (<https://morld.apps.cloud.kbds.re.kr/>), in addition, provides files of docking pose of each optimized molecules. 
